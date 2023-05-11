@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projek berita</string>
+    //Headings
+    <string name="heading_one">Quick &amp; Latest News About Politics </string>
+    <string name="heading_two">Latest News About Culture</string>
+    <string name="heading_three">The Latest News About The Industry</string>
+    <string name="heading_fourth">The Latest News About The Industry</string>
+
+    //Description
+    <string name="desc_one">Economics is a social science </string>
+    <string name="desc_two">Culture or culture is </string>
+    <string name="desc_three">Industry is a field </string>
+    <string name="desc_fourth">Industry is a field </string>
+
+</resources>

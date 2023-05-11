@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:onClick="to_Home1"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/beritaback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/cancel"
+            android:onClick="to_List" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="334dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bs2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Hasil liga 1: Persita sikat persib 4-0"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jarjit Shing"
+                android:textSize="20dp"
+                android:textColor="#616161"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="356dp"
+                android:layout_height="453dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="Persita Tangerang mengemas kemenangan telak saat menjamu Persib Bandung dalam lanjutan Liga 1 di Stadion Indomilk Arena, Minggu (9/4) malam.
+Skuad Pendekar Cisadane sudah menggedor pertahanan Persib sejak menit awal. Irsyad Maulana yang beroperasi di sisi kiri membunyikan tanda peringatan di barisan belakang Persib.
+
+Irsyad kemudian benar-benar mencetak gol pada menit ke-11 setelah menerima umpan dari Ezequiel Vidal. Kesalahan antisipasi Rachmat Irianto membuat Irsyad bisa menguasai bola dan kemudian melepas tembakan mendatar yang gagal diantisipasi dengan baik oleh kiper Teja Paku Alam.
+Setelah unggul 1-0, Persita tak mengendurkan serangan. Persib berada dalam tekanan. Kerja sama di sisi kiri yang dilakukan Irsyad dan Vidal menjadi awal gol kedua Persita.
+
+Bola kemudian diarahkan ke Hanis Saghara yang berada di koridor tengah. Sepakan Hanis masih bisa diblok Teja. Bola muntah lantas disepak Ramiro Fergonzi dan membuat gawang Persib bobol.
+"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

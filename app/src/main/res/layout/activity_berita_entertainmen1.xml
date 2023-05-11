@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:onClick="to_Home1"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/beritaback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/cancel"
+            android:onClick="to_List" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="334dp"
+                android:layout_gravity="center"
+                android:src="@drawable/be1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Taylor Swift dan Joe Alwyn Pilih Jadi Teman Usai Pisah"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adji Jajun"
+                android:textSize="20dp"
+                android:textColor="#616161"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="356dp"
+                android:layout_height="453dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="Taylor Swift dan Joe Alwyn disebut lebih memilih untuk menjadi sahabat setelah keduanya memutuskan berpisah usai menjalin asmara selama enam tahun. Perpisahan itu adalah keputusan keduanya.
+Hal itu diungkap seorang sumber dekat pasangan tersebut kepada CNN seperti yang dirilis pada Minggu (9/4). Sumber ini juga mengonfirmasi mereka sudah berpisah selama beberapa pekan.Taylor dan Joe putus beberapa minggu lalu. Mereka hanya kini berkembang ke arah yang terpisah dan berencana untuk tetap berteman, kata sumber tersebut. Taylor Swift dan Joe Alwyn sebelumnya diberitakan putus oleh ET, yang kemudian dikonfirmasi oleh sejumlah media seperti People dan E!. Perpisahan itu datang setelah Joe kedapatan tak berada di konser Taylor selama beberapa waktu terakhir. Meski berprofesi sebagai aktor, Joe Alwyn juga berduet dengan Swift dalam menggarap sejumlah lagu, terutama dalam album folklore dan evermore yang dirilis pada 2020 lalu.
+Dalam folklore, Alwyn menulis lagu bersama Swift dalam exile, dan memproduseri beberapa lagu lainnya seperti My Tears Riccochet, August, This Is Me Trying, Illicit Affairs, dan Betty.
+Album itu banyak menuai pujian dari kritikus dan masuk dalam daftar album terbaik 2020. Hingga kemudian, folklore menang Grammy Awards 2021 sebagai Album of the Year.
+Nama Joe Alwyn juga tercatat dalam lagu Champagne Problems di album evermore (2020), dan dalam lagu Sweet Nothing di album Midnights (2022).
+"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
