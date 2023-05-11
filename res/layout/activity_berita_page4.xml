@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:onClick="to_Home1"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/beritaback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/cancel"
+            android:onClick="to_List" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="334dp"
+                android:layout_gravity="center"
+                android:src="@drawable/b4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Buka JFW 2023, Mendag Zulhas: industri fashion indonesia naik kelas"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asep Tato"
+                android:textSize="20dp"
+                android:textColor="#616161"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="356dp"
+                android:layout_height="453dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="Menteri Perdagangan (Mendag), Zulkifli Hasan (Zulhas) mengatakan, pemerintah berkomitmen mendukung dan memfasilitasi pertumbuhan industri fesyen Indonesia. Itu disampaikan dalam pembukaan Jakarta Fashion Week (JFW) 2023, Jakarta, Senin (23/10).
+“Minggu lalu saya menutup kegiatan Jakarta Muslim Fashion Week (JMFW) 2022 dengan kesuksesan penyelenggaraan dan capaian transaksi hampir Rp 300 miliar. JFW merupakan ajang yang jauh lebih besar dan diharapkan dapat terus maju lagi,” kata Mendag Zulhas.
+Mendag mengungkapkan, pemerintah, khususnya Kementerian Perdagangan (Kemendag) terus mendukung pelaku usaha, khususnya dalam bidang fesyen agar lebih besar.
+Mendag percaya industri fesyen Indonesia mampu menyerbu pasar dunia. “Fesyen Indonesia tidak kalah dari negara manapun karena mempunyai sumber daya dengan talenta yang luar biasa. Oleh karena itu, saatnya Indonesia menyerbu pasar dunia,” imbuhnya.
+Pertumbuhan ekspor produk fesyen Indonesia terus menunjukkan progres yang menggembirakan. Pada periode Januari – Agustus 2022, ekspor industri kreatif ini meningkat sebesar 34,92 persen dibanding periode yang sama pada tahun lalu.
+Indonesia menempati posisi ke-16 sebagai eksportir fesyen dunia dengan pangsa pasar sebesar 1,69 persen."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

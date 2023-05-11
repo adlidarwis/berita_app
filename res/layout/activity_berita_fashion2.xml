@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:onClick="to_Home1"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/beritaback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/cancel"
+            android:onClick="to_List" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="334dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bf2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Prediksi tren fashion 2023 shabby chic"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mamang bonge"
+                android:textSize="20dp"
+                android:textColor="#616161"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="356dp"
+                android:layout_height="453dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="tahunnya, fashion selalu berkembang mengikuti perubahan zaman dan kondisi dari tiap generasi. Hal itu membuat tren fashion terus berubah setiap tahunnya.
+
+Pengamat fashion, Dia Demona menjelaskan tren fashion di 2023 diprediksi akan mengusung warna-warna pastel yang masih digandrungi.Untuk mengikuti tren fashion tersebut, Dia berkolaborasi dengan lima kolaborator berbeda untuk menonjolkan gaya yang beragam dalam setiap koleksinya yang bertajuk The Collaborators 2.0 series.
+
+Lima kolaborator tersebut merupakan para perempuan luar biasa yang memiliki gaya, kepribadian dan karier yang berbeda. Mereka ialah Vira Tandia, Sarah Sofyan, Analisa Widyaningrum, Sabrina Sosiawan dan Ayla Dimitri yang mengusung tema ‘Colors of Women’ untuk menceritakan keunikan semua perempuan.Di 2023 sendiri sebenarnya dari beberapa yang kita keluarkan di koleksi ini. Ada tren-tren warna yang diprediksi ada di 2023,” ujar Dia dalam keterangan resmi dalam acara konferensi pers dan fashion show Aleza di Jakarta baru-baru ini.
+
+Dia menambahkan banyak warna dan model di koleksi kolaborasi ini yang tren di 2023.
+
+Contohnya warna yellow-nya. Nanti itu ada di koleksinya Mba Sarsof. Atau warna-warna pastelnya yang ada di Mba Analisa, sambungnya."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

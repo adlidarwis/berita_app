@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:onClick="to_Home1"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/beritaback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/cancel"
+            android:onClick="to_List" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="334dp"
+                android:layout_gravity="center"
+                android:src="@drawable/b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Campur aduk Parade mode di pembukaan indonesia fashion weak"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dilan Cepmek"
+                android:textSize="20dp"
+                android:textColor="#616161"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="356dp"
+                android:layout_height="453dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="Bertajuk Indonesia Fashion Week (IFW) 2023 resmi diselenggarakan di Jakarta Convention Center (JCC) pada 22--26 Februari 2023. Dalam acara pembukaannya, Rabu (22/2/2023), parade fesyen yang campur aduk dipersembahkan.
+Dalam sambutannya, Presiden IFW Poppy Dharsono berkata, 10 tahun IFW merupakan perjalanan yang belum terlalu panjang, tapi cukup memuat perjuangan dan pengalaman dalam membangun struktur industri fesyen Indonesia. Kami terus mendorong kemandirian di bidang ekonomi kerakyatan, terlebih setelah dampak pandemi, ia menyebut. IFW tahun ini dilaksanakan dengan penuh gelora, (guna) menggerakkan kembali UKM dan industri kreatif berdasarkan nilai luhur Bhinneka Tunggal Ika.
+Kendati ngotot menyoroti pesona Gorontalo di edisi kali ini, upacara pembukaan IFW 2023 justru dimulai dengan persembahan tarian Betawi. Rangkaian disambung penampilan penyanyi serta musisi Maria Calista dan Kezia yang membawakann lagu Rayuan Pulau Kelapa.
+Kembali sesuai dengan tema yang diusung dalam pergelaran IFW ke-10 tahun, pertunjukan berlanjut ke presentasi delapan artikel koleksi Agus Lahinta yang didukung Dewan Kerajinan Nasional Daerah (Dekranasda) Provinsi Gorontalo."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
